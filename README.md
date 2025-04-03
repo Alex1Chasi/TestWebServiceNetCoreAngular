@@ -13,4 +13,6 @@ npm     version : 10.8.2
 angular version : 17.3.14
 
 Backend:
+Visual Studio 2022
 net core version : 8
+
