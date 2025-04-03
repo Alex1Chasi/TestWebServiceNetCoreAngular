@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAPIAC.props" />
+</Project>

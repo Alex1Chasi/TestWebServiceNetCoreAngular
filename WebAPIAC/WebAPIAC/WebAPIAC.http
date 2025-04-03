@@ -1,0 +1,6 @@
+@WebAPIAC_HostAddress = http://localhost:5261
+
+GET {{WebAPIAC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

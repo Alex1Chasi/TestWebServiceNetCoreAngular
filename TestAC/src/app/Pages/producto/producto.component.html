@@ -1,0 +1,47 @@
+
+<div class="mat-elevation-z2" style="width: 30%; padding: 30px; margin: 50px auto; display: flex;justify-content: center;">
+    <form [formGroup]="formProducto">
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Nombre </mat-label>
+                <input matInput  formControlName="nombre">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>descripcion</mat-label>
+                <input matInput  formControlName="descripcion">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>categoria</mat-label>
+                <input matInput formControlName="categoria">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>imagen</mat-label>
+                <input matInput  formControlName="imagen">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>precio</mat-label>
+                <input matInput  formControlName="precio">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>stock</mat-label>
+                <input matInput  formControlName="stock">
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <button mat-flat-button color="primary" (click)="guardar()">Guardar</button>
+            <button mat-flat-button color="warn" (click)="volver()" style="margin-left: 8px;">Volver</button>
+        </div>
+
+    </form>
+
+</div>
