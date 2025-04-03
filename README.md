@@ -1,0 +1,2 @@
+# TestWebServiceNetCoreAngular
+TestWebServiceNetCoreAngular
